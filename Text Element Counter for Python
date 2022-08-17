@@ -1,0 +1,27 @@
+#Word Counter
+
+# input text here
+text = "EXAMPLE TEXT"
+text_space = text.count(" ")
+
+print("Elements of word below is analyzed")
+print ("")
+print(text)
+print ("")
+
+# word count
+# split to separate words (separated by spaces)
+print("word count")
+print(len(text.split()))
+print ("")
+
+# character count
+# count number of characters
+print("character count")
+print(len(text) - text_space)
+print ("")
+
+# character+space count
+# count number of characters and spaces
+print("character and space count")
+print(len(text))
